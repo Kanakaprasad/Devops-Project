@@ -20,17 +20,16 @@
 
 ### Connect instance with command prompt
 
-
-Change Jenkins machine host name
+- Change Jenkins machine host name
 
    		hostnamectl set-hostname Jenkins
 		/bin/bash
 
-Update instance
+- Update instance
 
 		sudo apt-get upadate
 
-Install java version 17 Run Time Environment
+-  Install java version 17 Run Time Environment
 
 		sudo  apt install openjdk-17-jre
 
@@ -42,15 +41,14 @@ Install java version 17 Run Time Environment
 
 		sudo apt-get install jenkins
 
-Verify jenkins & to copy the jenkins secrete key
+- Verify jenkins & to copy the jenkins secrete key
 
 		systemctl status jenkins
 
-Goto Jenkins EC2 instance add 8080 port number to inbound traffic
+- Goto Jenkins EC2 instance add 8080 port number to inbound traffic
 
 	
-### Open the jenkins machine in browser with ip(jenkins):8080
-
+- ###  Open the jenkins machine in browser with ip(jenkins):8080
 	- paste the jenkins secrete key
-   	- install suggested plugins
-   	- create a jenkins admin user
+	- install suggested plugins
+	- create a jenkins admin user
